@@ -1,0 +1,1606 @@
+{
+ "statnex": "0.5.0",
+ "colab": "https://colab.research.google.com/github/nguyen-yumot/statnex-colab/blob/main/",
+ "notebooks": [
+  {
+   "path": "notebooks/01_basic/box_plot_10_to_90.ipynb",
+   "example": "edu_iris_box_10_90",
+   "method_id": "box_plot",
+   "method": "Box Plot",
+   "title": "Delivery times of three apps: 10% to 90% whiskers",
+   "table": "01_basic/box_plot.csv"
+  },
+  {
+   "path": "notebooks/01_basic/box_plot_5_to_95.ipynb",
+   "example": "edu_iris_box_5_95",
+   "method_id": "box_plot",
+   "method": "Box Plot",
+   "title": "Delivery times of three apps: 5% to 95% whiskers",
+   "table": "01_basic/box_plot.csv"
+  },
+  {
+   "path": "notebooks/01_basic/box_plot_mean_sd_sorted_by_mean.ipynb",
+   "example": "edu_iris_box_mean_sd",
+   "method_id": "box_plot",
+   "method": "Box Plot",
+   "title": "Delivery times of three apps: mean ± SD, sorted",
+   "table": "01_basic/box_plot.csv"
+  },
+  {
+   "path": "notebooks/01_basic/box_plot_q1_1_5_iqr.ipynb",
+   "example": "edu_iris_box_by_species",
+   "method_id": "box_plot",
+   "method": "Box Plot",
+   "title": "Delivery times of three apps: 1.5 x IQR whiskers",
+   "table": "01_basic/box_plot.csv"
+  },
+  {
+   "path": "notebooks/01_basic/box_plot_tukey_s_hinges.ipynb",
+   "example": "edu_iris_box_tukey",
+   "method_id": "box_plot",
+   "method": "Box Plot",
+   "title": "Delivery times of three apps: Tukey's hinges",
+   "table": "01_basic/box_plot.csv"
+  },
+  {
+   "path": "notebooks/01_basic/correlation_matrix_correlations.ipynb",
+   "example": "edu_npb_team_stats_2015",
+   "method_id": "correlation_matrix",
+   "method": "Correlation and Partial Correlation Matrix",
+   "title": "Beach kiosk sales and weather: correlations",
+   "table": "01_basic/correlation_matrix.csv"
+  },
+  {
+   "path": "notebooks/01_basic/correlation_matrix_intervals_and_tests.ipynb",
+   "example": "edu_npb_team_stats_extras",
+   "method_id": "correlation_matrix",
+   "method": "Correlation and Partial Correlation Matrix",
+   "title": "Beach kiosk sales and weather: intervals and tests",
+   "table": "01_basic/correlation_matrix.csv"
+  },
+  {
+   "path": "notebooks/01_basic/covariance_matrix.ipynb",
+   "example": "edu_npb_team_covariance",
+   "method_id": "covariance_matrix",
+   "method": "Variance-Covariance Matrix",
+   "title": "Beach kiosk: the raw variance-covariance matrix",
+   "table": "01_basic/covariance_matrix.csv"
+  },
+  {
+   "path": "notebooks/01_basic/descriptive_statistics.ipynb",
+   "example": "edu_iris_setosa_descriptives",
+   "method_id": "descriptive_statistics",
+   "method": "Descriptive Statistics",
+   "title": "A typical ZipEats order: mean, SD, SE and interval",
+   "table": "01_basic/descriptive_statistics.csv"
+  },
+  {
+   "path": "notebooks/01_basic/dot_plot.ipynb",
+   "example": "edu_iris_sepal_dots",
+   "method_id": "dot_plot",
+   "method": "Dot Plot",
+   "title": "Every delivery time of three apps as a dot",
+   "table": "01_basic/dot_plot.csv"
+  },
+  {
+   "path": "notebooks/01_basic/frequency_histogram_classes_5_minutes_wide.ipynb",
+   "example": "edu_iris_sepal_length_by_species",
+   "method_id": "frequency_histogram",
+   "method": "Frequency Distribution and Histogram",
+   "title": "Delivery times of three apps: classes 5 minutes wide",
+   "table": "01_basic/frequency_histogram.csv"
+  },
+  {
+   "path": "notebooks/01_basic/frequency_histogram_service_bands_and_pareto_table.ipynb",
+   "example": "edu_iris_sepal_length_bounds",
+   "method_id": "frequency_histogram",
+   "method": "Frequency Distribution and Histogram",
+   "title": "Delivery times: service bands and a Pareto table",
+   "table": "01_basic/frequency_histogram.csv"
+  },
+  {
+   "path": "notebooks/01_basic/frequency_histogram_sturges_formula_and_goodness_of_fit.ipynb",
+   "example": "edu_iris_sepal_length_sturges",
+   "method_id": "frequency_histogram",
+   "method": "Frequency Distribution and Histogram",
+   "title": "Delivery times: Sturges' classes and a normal fit test",
+   "table": "01_basic/frequency_histogram.csv"
+  },
+  {
+   "path": "notebooks/01_basic/intraclass_correlation.ipynb",
+   "example": "edu_four_raters_ten_patients",
+   "method_id": "intraclass_correlation",
+   "method": "Intraclass Correlation Coefficient",
+   "title": "Four judges score ten startup pitches: ICC",
+   "table": "01_basic/intraclass_correlation.csv"
+  },
+  {
+   "path": "notebooks/01_basic/kendall_correlation.ipynb",
+   "example": "edu_dog_breed_traits",
+   "method_id": "kendall_correlation",
+   "method": "Kendall's Rank Correlation Matrix",
+   "title": "56 snacks, 13 attributes: what comes with a high price",
+   "table": "01_basic/kendall_correlation.csv"
+  },
+  {
+   "path": "notebooks/01_basic/kernel_density.ipynb",
+   "example": "edu_iris_sepal_density",
+   "method_id": "kernel_density",
+   "method": "Kernel Density Estimation",
+   "title": "Delivery times of three apps as smooth density curves",
+   "table": "01_basic/kernel_density.csv"
+  },
+  {
+   "path": "notebooks/01_basic/mean_plot.ipynb",
+   "example": "edu_iris_sepal_means",
+   "method_id": "mean_plot",
+   "method": "Mean Plot with Error Bars",
+   "title": "Mean delivery time per app, with error bars",
+   "table": "01_basic/mean_plot.csv"
+  },
+  {
+   "path": "notebooks/01_basic/normal_probability_plot_arrival_minute.ipynb",
+   "example": "edu_qq_uniform",
+   "method_id": "normal_probability_plot",
+   "method": "Normal Probability Plot and Normality Tests",
+   "title": "Is it normal? Arrival minutes spread evenly",
+   "table": "01_basic/normal_probability_plot.csv"
+  },
+  {
+   "path": "notebooks/01_basic/normal_probability_plot_checkout_time_sec.ipynb",
+   "example": "edu_qq_outlier",
+   "method_id": "normal_probability_plot",
+   "method": "Normal Probability Plot and Normality Tests",
+   "title": "Is it normal? One 118-second checkout breaks the line",
+   "table": "01_basic/normal_probability_plot.csv"
+  },
+  {
+   "path": "notebooks/01_basic/normal_probability_plot_cup_weight_g.ipynb",
+   "example": "edu_qq_normal",
+   "method_id": "normal_probability_plot",
+   "method": "Normal Probability Plot and Normality Tests",
+   "title": "Is it normal? Cup weights follow the line",
+   "table": "01_basic/normal_probability_plot.csv"
+  },
+  {
+   "path": "notebooks/01_basic/normal_probability_plot_outlier_test_dixon.ipynb",
+   "example": "edu_outlier_distribution_dixon",
+   "method_id": "outlier_test",
+   "method": "Outlier Test (Smirnov-Grubbs)",
+   "title": "Cafe checkout times: Dixon's test on the 118 seconds",
+   "table": "01_basic/normal_probability_plot.csv"
+  },
+  {
+   "path": "notebooks/01_basic/normal_probability_plot_spend_per_customer.ipynb",
+   "example": "edu_qq_right_skew",
+   "method_id": "normal_probability_plot",
+   "method": "Normal Probability Plot and Normality Tests",
+   "title": "Is it normal? A few big spenders skew the spend",
+   "table": "01_basic/normal_probability_plot.csv"
+  },
+  {
+   "path": "notebooks/01_basic/outlier_test_masuyama_rejection_limits.ipynb",
+   "example": "edu_annual_temperature_masuyama",
+   "method_id": "outlier_test",
+   "method": "Outlier Test (Smirnov-Grubbs)",
+   "title": "Sneaker listings: Masuyama's rejection limits",
+   "table": "01_basic/outlier_test.csv"
+  },
+  {
+   "path": "notebooks/01_basic/outlier_test_smirnov_grubbs.ipynb",
+   "example": "edu_annual_temperature_outliers",
+   "method_id": "outlier_test",
+   "method": "Outlier Test (Smirnov-Grubbs)",
+   "title": "Sneaker listings: is $1,999 an outlier? Smirnov-Grubbs",
+   "table": "01_basic/outlier_test.csv"
+  },
+  {
+   "path": "notebooks/01_basic/outlier_test_thompson.ipynb",
+   "example": "edu_annual_temperature_thompson",
+   "method_id": "outlier_test",
+   "method": "Outlier Test (Smirnov-Grubbs)",
+   "title": "Sneaker listings: Thompson's test rejects three prices",
+   "table": "01_basic/outlier_test.csv"
+  },
+  {
+   "path": "notebooks/01_basic/scatter_matrix.ipynb",
+   "example": "edu_iris_setosa_pairs",
+   "method_id": "scatter_matrix",
+   "method": "Scatter Plot Matrix",
+   "title": "50 ZipEats orders: every pair of measures plotted",
+   "table": "01_basic/scatter_matrix.csv"
+  },
+  {
+   "path": "notebooks/01_basic/spearman_correlation.ipynb",
+   "example": "edu_prefecture_rank_correlation",
+   "method_id": "spearman_correlation",
+   "method": "Spearman's Rank Correlation Matrix",
+   "title": "47 creators: followers, engagement and sponsor income",
+   "table": "01_basic/spearman_correlation.csv"
+  },
+  {
+   "path": "notebooks/01_basic/statistical_graphs.ipynb",
+   "example": "edu_iris_seven_views",
+   "method_id": "statistical_graphs",
+   "method": "Statistical Graphs (Database Format)",
+   "title": "Three apps from one database table: seven views at once",
+   "table": "01_basic/statistical_graphs.csv"
+  },
+  {
+   "path": "notebooks/01_basic/stem_and_leaf.ipynb",
+   "example": "edu_iris_sepal_length_stems",
+   "method_id": "stem_and_leaf",
+   "method": "Stem-and-Leaf Display",
+   "title": "Delivery times of three apps: stem-and-leaf display",
+   "table": "01_basic/stem_and_leaf.csv"
+  },
+  {
+   "path": "notebooks/01_basic/stratified_descriptives_pca_correlation_matrix.ipynb",
+   "example": "edu_iris_measurements_correlation_pca",
+   "method_id": "principal_component_analysis",
+   "method": "Principal Component Analysis",
+   "title": "150 delivery orders: PCA on the correlation matrix",
+   "table": "01_basic/stratified_descriptives.csv"
+  },
+  {
+   "path": "notebooks/01_basic/stratified_descriptives_pca_covariance_matrix.ipynb",
+   "example": "edu_iris_measurements_covariance_pca",
+   "method_id": "principal_component_analysis",
+   "method": "Principal Component Analysis",
+   "title": "150 delivery orders: PCA on the covariance matrix",
+   "table": "01_basic/stratified_descriptives.csv"
+  },
+  {
+   "path": "notebooks/01_basic/stratified_descriptives_stratified_statistics.ipynb",
+   "example": "edu_iris_by_species",
+   "method_id": "stratified_descriptives",
+   "method": "Stratified Descriptive Statistics and Correlation Ratio",
+   "title": "150 orders by app: group statistics and η²",
+   "table": "01_basic/stratified_descriptives.csv"
+  },
+  {
+   "path": "notebooks/02_one_sample/one_sample_mean_ci.ipynb",
+   "example": "edu_iris_mean_ci",
+   "method_id": "one_sample_mean_ci",
+   "method": "Confidence Interval Estimation for the Mean",
+   "title": "ZipEats pitch claims: mean intervals from 50 raw orders",
+   "table": "02_one_sample/one_sample_mean_ci.csv"
+  },
+  {
+   "path": "notebooks/02_one_sample/one_sample_mean_ci__summary.ipynb",
+   "example": "edu_iris_mean_ci_summary",
+   "method_id": "one_sample_mean_ci",
+   "method": "Confidence Interval Estimation for the Mean",
+   "title": "ZipEats pitch claims: mean intervals from a summary",
+   "table": "02_one_sample/one_sample_mean_ci__summary.csv"
+  },
+  {
+   "path": "notebooks/02_one_sample/one_sample_mean_test.ipynb",
+   "example": "edu_fasting_blood_glucose",
+   "method_id": "one_sample_mean_test",
+   "method": "One-Sample Test for the Mean",
+   "title": "Advertised 20-hour battery life: t test on 30 phones",
+   "table": "02_one_sample/one_sample_mean_test.csv"
+  },
+  {
+   "path": "notebooks/02_one_sample/one_sample_mean_test__summary.ipynb",
+   "example": "edu_fasting_blood_glucose_summary",
+   "method_id": "one_sample_mean_test",
+   "method": "One-Sample Test for the Mean",
+   "title": "Advertised 20-hour battery life: test from a summary",
+   "table": "02_one_sample/one_sample_mean_test__summary.csv"
+  },
+  {
+   "path": "notebooks/02_one_sample/one_sample_proportion_ci_clopper_pearson_exact.ipynb",
+   "example": "edu_kitchen_appliance_ownership",
+   "method_id": "one_sample_proportion_ci",
+   "method": "Confidence Interval Estimation for the Population Proportion",
+   "title": "Campus device ownership: Clopper-Pearson exact interval",
+   "table": "02_one_sample/one_sample_proportion_ci.csv"
+  },
+  {
+   "path": "notebooks/02_one_sample/one_sample_proportion_ci_wilson_score_interval.ipynb",
+   "example": "edu_kitchen_appliance_wilson",
+   "method_id": "one_sample_proportion_ci",
+   "method": "Confidence Interval Estimation for the Population Proportion",
+   "title": "Campus device ownership: Wilson score interval",
+   "table": "02_one_sample/one_sample_proportion_ci.csv"
+  },
+  {
+   "path": "notebooks/02_one_sample/one_sample_proportion_diff__exclusive.ipynb",
+   "example": "edu_blood_type_exclusive",
+   "method_id": "one_sample_proportion_diff",
+   "method": "Hypothesis Testing for the Difference of Population Proportions for 1 Sample",
+   "title": "Blind cola taste test: choices that exclude each other",
+   "table": "02_one_sample/one_sample_proportion_diff__exclusive.csv"
+  },
+  {
+   "path": "notebooks/02_one_sample/one_sample_proportion_diff__overlap.ipynb",
+   "example": "edu_food_preference_overlap",
+   "method_id": "one_sample_proportion_diff",
+   "method": "Hypothesis Testing for the Difference of Population Proportions for 1 Sample",
+   "title": "Social app use for an ad budget: choices that overlap",
+   "table": "02_one_sample/one_sample_proportion_diff__overlap.csv"
+  },
+  {
+   "path": "notebooks/02_one_sample/one_sample_proportion_test.ipynb",
+   "example": "edu_kanto_viewing_rate",
+   "method_id": "one_sample_proportion_test",
+   "method": "One-Sample Test for a Proportion",
+   "title": "New pricing page: conversion against the old 13%",
+   "table": "02_one_sample/one_sample_proportion_test.csv"
+  },
+  {
+   "path": "notebooks/02_one_sample/one_sample_variance_ci.ipynb",
+   "example": "edu_iris_setosa_spread",
+   "method_id": "one_sample_variance_ci",
+   "method": "Confidence Interval Estimation for the Variance",
+   "title": "ZipEats delivery spread: interval from 50 raw orders",
+   "table": "02_one_sample/one_sample_variance_ci.csv"
+  },
+  {
+   "path": "notebooks/02_one_sample/one_sample_variance_ci__summary.ipynb",
+   "example": "edu_iris_setosa_spread_summary",
+   "method_id": "one_sample_variance_ci",
+   "method": "Confidence Interval Estimation for the Variance",
+   "title": "ZipEats delivery spread: interval from a summary",
+   "table": "02_one_sample/one_sample_variance_ci__summary.csv"
+  },
+  {
+   "path": "notebooks/02_one_sample/one_sample_variance_test.ipynb",
+   "example": "edu_filling_line_precision",
+   "method_id": "one_sample_variance_test",
+   "method": "Hypothesis Testing for the Variance",
+   "title": "Chip bag weights: each line against the 1 g rule",
+   "table": "02_one_sample/one_sample_variance_test.csv"
+  },
+  {
+   "path": "notebooks/02_one_sample/one_sample_variance_test__summary.ipynb",
+   "example": "edu_filling_line_precision_summary",
+   "method_id": "one_sample_variance_test",
+   "method": "Hypothesis Testing for the Variance",
+   "title": "Chip bag weights: the 1 g rule from a summary sheet",
+   "table": "02_one_sample/one_sample_variance_test__summary.csv"
+  },
+  {
+   "path": "notebooks/03_two_sample/homogeneity_of_variance.ipynb",
+   "example": "edu_production_lines",
+   "method_id": "homogeneity_of_variance",
+   "method": "Test for Homogeneity of Variance",
+   "title": "Chip packing lines: is Line B less consistent?",
+   "table": "03_two_sample/homogeneity_of_variance.csv"
+  },
+  {
+   "path": "notebooks/03_two_sample/homogeneity_of_variance__summary.ipynb",
+   "example": "edu_filling_line_precision_summary_rounded",
+   "method_id": "homogeneity_of_variance",
+   "method": "Test for Homogeneity of Variance",
+   "title": "Chip packing lines: variance test from a shift report",
+   "table": "03_two_sample/homogeneity_of_variance__summary.csv"
+  },
+  {
+   "path": "notebooks/03_two_sample/mean_difference_meta_analysis.ipynb",
+   "example": "edu_stroke_unit_trials",
+   "method_id": "mean_difference_meta_analysis",
+   "method": "Meta-Analysis of the Difference between Means",
+   "title": "Background music in nine stores: pooled basket lift",
+   "table": "03_two_sample/mean_difference_meta_analysis.csv"
+  },
+  {
+   "path": "notebooks/03_two_sample/paired_mean_test.ipynb",
+   "example": "edu_diet_before_after",
+   "method_id": "paired_mean_test",
+   "method": "Paired Test for Means",
+   "title": "Negotiation course: weekly sales before and after",
+   "table": "03_two_sample/paired_mean_test.csv"
+  },
+  {
+   "path": "notebooks/03_two_sample/two_sample_mean_database.ipynb",
+   "example": "edu_dialysis_immunoglobulin",
+   "method_id": "two_sample_mean_database",
+   "method": "Two-Sample Test for Means (Database Format)",
+   "title": "Chatbot or human agent: minutes to resolve a ticket",
+   "table": "03_two_sample/two_sample_mean_database.csv"
+  },
+  {
+   "path": "notebooks/03_two_sample/two_sample_mean_table.ipynb",
+   "example": "edu_dialysis_table_format",
+   "method_id": "two_sample_mean_table",
+   "method": "Two-Sample Test for Means (Table Format)",
+   "title": "Chatbot desk vs human desk: tickets from raw weeks",
+   "table": "03_two_sample/two_sample_mean_table.csv"
+  },
+  {
+   "path": "notebooks/03_two_sample/two_sample_mean_table__summary.ipynb",
+   "example": "edu_dialysis_table_format_summary",
+   "method_id": "two_sample_mean_table",
+   "method": "Two-Sample Test for Means (Table Format)",
+   "title": "Chatbot desk vs human desk: test from a board summary",
+   "table": "03_two_sample/two_sample_mean_table__summary.csv"
+  },
+  {
+   "path": "notebooks/03_two_sample/two_sample_proportion_test.ipynb",
+   "example": "edu_tv_rating_east_west",
+   "method_id": "two_sample_proportion_test",
+   "method": "Hypothesis Testing for the Difference in the Population Proportions",
+   "title": "Ad A vs Ad B: the large test, 24,000 visitors per ad",
+   "table": "03_two_sample/two_sample_proportion_test.csv"
+  },
+  {
+   "path": "notebooks/03_two_sample/two_sample_proportion_test__pilot.ipynb",
+   "example": "edu_tv_rating_east_west__pilot",
+   "method_id": "two_sample_proportion_test",
+   "method": "Hypothesis Testing for the Difference in the Population Proportions",
+   "title": "Ad A vs Ad B: the pilot, 600 visitors per ad",
+   "table": "03_two_sample/two_sample_proportion_test__pilot.csv"
+  },
+  {
+   "path": "notebooks/04_crosstab/categorical_frequency.ipynb",
+   "example": "edu_city_of_residence",
+   "method_id": "categorical_frequency",
+   "method": "Frequency Distribution for Categorical Data",
+   "title": "Online shop orders: how customers pay",
+   "table": "04_crosstab/categorical_frequency.csv"
+  },
+  {
+   "path": "notebooks/04_crosstab/cochran_armitage_cochran_armitage_trend_test.ipynb",
+   "example": "edu_dose_response_abnormality",
+   "method_id": "cochran_armitage",
+   "method": "Cochran-Armitage Test for Trend",
+   "title": "Jacket discounts: Cochran-Armitage trend test",
+   "table": "04_crosstab/cochran_armitage.csv"
+  },
+  {
+   "path": "notebooks/04_crosstab/cochran_armitage_fisher_s_exact_test.ipynb",
+   "example": "edu_dose_abnormality_fisher",
+   "method_id": "fisher_exact_test",
+   "method": "Fisher's Exact Test",
+   "title": "Jacket discounts: Fisher's exact test on a 4 x 2 table",
+   "table": "04_crosstab/cochran_armitage.csv"
+  },
+  {
+   "path": "notebooks/04_crosstab/cochran_mantel_haenszel.ipynb",
+   "example": "edu_coffee_and_disease_by_age",
+   "method_id": "cochran_mantel_haenszel",
+   "method": "Cochran-Mantel-Haenszel Test",
+   "title": "Promo email by customer type: CMH test",
+   "table": "04_crosstab/cochran_mantel_haenszel.csv"
+  },
+  {
+   "path": "notebooks/04_crosstab/correspondence_analysis__counts.ipynb",
+   "example": "edu_rorschach_frequency",
+   "method_id": "correspondence_analysis",
+   "method": "Correspondence Analysis",
+   "title": "Emoji reactions to posts: correspondence analysis of counts",
+   "table": "04_crosstab/correspondence_analysis__counts.csv"
+  },
+  {
+   "path": "notebooks/04_crosstab/correspondence_analysis__means.ipynb",
+   "example": "edu_drug_rating_means",
+   "method_id": "correspondence_analysis",
+   "method": "Correspondence Analysis",
+   "title": "Phone brand ratings: correspondence analysis of means",
+   "table": "04_crosstab/correspondence_analysis__means.csv"
+  },
+  {
+   "path": "notebooks/04_crosstab/correspondence_analysis__row_percent.ipynb",
+   "example": "edu_age_bmi_row_percent",
+   "method_id": "correspondence_analysis",
+   "method": "Correspondence Analysis",
+   "title": "Sales channel by age group: row percentages",
+   "table": "04_crosstab/correspondence_analysis__row_percent.csv"
+  },
+  {
+   "path": "notebooks/04_crosstab/cross_tabulation__counts.ipynb",
+   "example": "edu_course_satisfaction_counts",
+   "method_id": "cross_tabulation",
+   "method": "Cross Tabulation and Analysis",
+   "title": "Streaming plans and satisfaction: from counted rows",
+   "table": "04_crosstab/cross_tabulation__counts.csv"
+  },
+  {
+   "path": "notebooks/04_crosstab/cross_tabulation__raw_chi_square_and_residuals.ipynb",
+   "example": "edu_course_satisfaction_raw",
+   "method_id": "cross_tabulation",
+   "method": "Cross Tabulation and Analysis",
+   "title": "Streaming plans and satisfaction: chi-square and residuals",
+   "table": "04_crosstab/cross_tabulation__raw.csv"
+  },
+  {
+   "path": "notebooks/04_crosstab/cross_tabulation__raw_plus_association_measures.ipynb",
+   "example": "edu_course_satisfaction_measures",
+   "method_id": "cross_tabulation",
+   "method": "Cross Tabulation and Analysis",
+   "title": "Streaming plans and satisfaction: association measures",
+   "table": "04_crosstab/cross_tabulation__raw.csv"
+  },
+  {
+   "path": "notebooks/04_crosstab/dual_scaling.ipynb",
+   "example": "edu_rorschach_dual_scaling",
+   "method_id": "dual_scaling",
+   "method": "Dual Scaling",
+   "title": "Emoji reactions to posts: dual scaling",
+   "table": "04_crosstab/dual_scaling.csv"
+  },
+  {
+   "path": "notebooks/04_crosstab/extended_mantel.ipynb",
+   "example": "edu_coffee_dose_by_age",
+   "method_id": "extended_mantel",
+   "method": "Mantel-Extension Test",
+   "title": "Email frequency and unsubscribes: Mantel-extension test",
+   "table": "04_crosstab/extended_mantel.csv"
+  },
+  {
+   "path": "notebooks/04_crosstab/fisher_exact_test.ipynb",
+   "example": "edu_new_drug_trial",
+   "method_id": "fisher_exact_test",
+   "method": "Fisher's Exact Test",
+   "title": "Free-sample pilot: Fisher's exact test",
+   "table": "04_crosstab/fisher_exact_test.csv"
+  },
+  {
+   "path": "notebooks/04_crosstab/goodman_kruskal_gamma.ipynb",
+   "example": "edu_age_and_leisure_ordinal",
+   "method_id": "goodman_kruskal_gamma",
+   "method": "Goodman-Kruskal's Gamma",
+   "title": "Age and online shopping frequency: gamma",
+   "table": "04_crosstab/goodman_kruskal_gamma.csv"
+  },
+  {
+   "path": "notebooks/04_crosstab/goodman_kruskal_tau.ipynb",
+   "example": "edu_party_support_and_opinion",
+   "method_id": "goodman_kruskal_tau",
+   "method": "Goodman-Kruskal's Tau",
+   "title": "Phone type and paying for app features: tau",
+   "table": "04_crosstab/goodman_kruskal_tau.csv"
+  },
+  {
+   "path": "notebooks/04_crosstab/goodness_of_fit__week3_expected_counts.ipynb",
+   "example": "edu_international_students_by_nationality__week3",
+   "method_id": "goodness_of_fit",
+   "method": "Goodness-of-Fit Test",
+   "title": "T-shirt colours, week 3: planned stock as counts",
+   "table": "04_crosstab/goodness_of_fit__week3.csv"
+  },
+  {
+   "path": "notebooks/04_crosstab/goodness_of_fit__week3_expected_proportions.ipynb",
+   "example": "edu_international_students_by_ratio__week3",
+   "method_id": "goodness_of_fit",
+   "method": "Goodness-of-Fit Test",
+   "title": "T-shirt colours, week 3: planned proportions",
+   "table": "04_crosstab/goodness_of_fit__week3.csv"
+  },
+  {
+   "path": "notebooks/04_crosstab/goodness_of_fit_expected_counts.ipynb",
+   "example": "edu_international_students_by_nationality",
+   "method_id": "goodness_of_fit",
+   "method": "Goodness-of-Fit Test",
+   "title": "T-shirt colours, week 1: planned stock as counts",
+   "table": "04_crosstab/goodness_of_fit.csv"
+  },
+  {
+   "path": "notebooks/04_crosstab/goodness_of_fit_expected_proportions.ipynb",
+   "example": "edu_international_students_by_ratio",
+   "method_id": "goodness_of_fit",
+   "method": "Goodness-of-Fit Test",
+   "title": "T-shirt colours, week 1: planned proportions",
+   "table": "04_crosstab/goodness_of_fit.csv"
+  },
+  {
+   "path": "notebooks/04_crosstab/independence_test__2x2.ipynb",
+   "example": "edu_new_drug_2x2",
+   "method_id": "independence_test",
+   "method": "Test of Independence",
+   "title": "Free-sample pilot: chi-square test on a 2 x 2 table",
+   "table": "04_crosstab/independence_test__2x2.csv"
+  },
+  {
+   "path": "notebooks/04_crosstab/independence_test__3x5.ipynb",
+   "example": "edu_service_satisfaction",
+   "method_id": "independence_test",
+   "method": "Test of Independence",
+   "title": "Streaming survey as a bare 3 x 5 table",
+   "table": "04_crosstab/independence_test__3x5.csv"
+  },
+  {
+   "path": "notebooks/04_crosstab/kappa_coefficient_bowker_and_stuart_maxwell_tests.ipynb",
+   "example": "edu_rater_agreement_bowker",
+   "method_id": "mcnemar_test",
+   "method": "McNemar Test",
+   "title": "Two staff labelling comments: Bowker and Stuart-Maxwell",
+   "table": "04_crosstab/kappa_coefficient.csv"
+  },
+  {
+   "path": "notebooks/04_crosstab/kappa_coefficient_kappa.ipynb",
+   "example": "edu_rater_agreement_four_grades",
+   "method_id": "kappa_coefficient",
+   "method": "Kappa Coefficient",
+   "title": "Two staff labelling comments: kappa",
+   "table": "04_crosstab/kappa_coefficient.csv"
+  },
+  {
+   "path": "notebooks/04_crosstab/mcnemar_test.ipynb",
+   "example": "edu_allergy_test_agreement",
+   "method_id": "mcnemar_test",
+   "method": "McNemar Test",
+   "title": "Smart speaker demo video: McNemar test",
+   "table": "04_crosstab/mcnemar_test.csv"
+  },
+  {
+   "path": "notebooks/04_crosstab/residual_analysis.ipynb",
+   "example": "edu_age_and_leisure_time",
+   "method_id": "residual_analysis",
+   "method": "Residual Analysis of a Cross Tabulation",
+   "title": "Age and online shopping: residual analysis",
+   "table": "04_crosstab/residual_analysis.csv"
+  },
+  {
+   "path": "notebooks/04_crosstab/risk_ratio_odds_ratio.ipynb",
+   "example": "edu_new_drug_effectiveness",
+   "method_id": "risk_ratio_odds_ratio",
+   "method": "Risk Ratio and Odds Ratio",
+   "title": "Free-sample pilot: risk ratio and odds ratio",
+   "table": "04_crosstab/risk_ratio_odds_ratio.csv"
+  },
+  {
+   "path": "notebooks/05_anova/ancova__adjusted.ipynb",
+   "example": "edu_yield_purity_adjusted",
+   "method_id": "ancova",
+   "method": "Analysis of Covariance",
+   "title": "Promotions and foot traffic: adjusted means",
+   "table": "05_anova/ancova__adjusted.csv"
+  },
+  {
+   "path": "notebooks/05_anova/ancova__parallel.ipynb",
+   "example": "edu_yield_purity_parallel",
+   "method_id": "ancova",
+   "method": "Analysis of Covariance",
+   "title": "Promotions and foot traffic: testing parallel slopes",
+   "table": "05_anova/ancova__parallel.csv"
+  },
+  {
+   "path": "notebooks/05_anova/factorial_anova.ipynb",
+   "example": "edu_sake_tasting",
+   "method_id": "factorial_anova",
+   "method": "Factorial Analysis of Variance",
+   "title": "Pizza taste test: crust, cheese and price tag",
+   "table": "05_anova/factorial_anova.csv"
+  },
+  {
+   "path": "notebooks/05_anova/factorial_anova_repeated.ipynb",
+   "example": "edu_illusion_experiment",
+   "method_id": "factorial_anova_repeated",
+   "method": "Factorial Repeated Measures Analysis of Variance",
+   "title": "Chocolate price guesses: packaging, store and brand",
+   "table": "05_anova/factorial_anova_repeated.csv"
+  },
+  {
+   "path": "notebooks/05_anova/manova.ipynb",
+   "example": "edu_product_conditions",
+   "method_id": "manova",
+   "method": "Multivariate Analysis of Variance",
+   "title": "Store formats and seasons: four outcomes at once",
+   "table": "05_anova/manova.csv"
+  },
+  {
+   "path": "notebooks/05_anova/one_way_anova__dunnett.ipynb",
+   "example": "edu_drug_vs_placebo",
+   "method_id": "one_way_anova",
+   "method": "One-Way Analysis of Variance",
+   "title": "Checkout page redesigns: Dunnett's test",
+   "table": "05_anova/one_way_anova__dunnett.csv"
+  },
+  {
+   "path": "notebooks/05_anova/one_way_anova__tukey.ipynb",
+   "example": "edu_ferrite_core_mixing",
+   "method_id": "one_way_anova",
+   "method": "One-Way Analysis of Variance",
+   "title": "Shelf positions for an energy drink: Tukey's test",
+   "table": "05_anova/one_way_anova__tukey.csv"
+  },
+  {
+   "path": "notebooks/05_anova/one_way_anova__tukey_bonferroni.ipynb",
+   "example": "edu_ferrite_core_bonferroni",
+   "method_id": "one_way_anova",
+   "method": "One-Way Analysis of Variance",
+   "title": "Shelf positions for an energy drink: Bonferroni",
+   "table": "05_anova/one_way_anova__tukey.csv"
+  },
+  {
+   "path": "notebooks/05_anova/one_way_anova__tukey_holm.ipynb",
+   "example": "edu_ferrite_core_holm",
+   "method_id": "one_way_anova",
+   "method": "One-Way Analysis of Variance",
+   "title": "Shelf positions for an energy drink: Holm",
+   "table": "05_anova/one_way_anova__tukey.csv"
+  },
+  {
+   "path": "notebooks/05_anova/one_way_anova__tukey_lsd_three_positions.ipynb",
+   "example": "edu_ferrite_core_lsd",
+   "method_id": "one_way_anova",
+   "method": "One-Way Analysis of Variance",
+   "title": "Three shelf positions: Fisher's LSD",
+   "table": "05_anova/one_way_anova__tukey.csv"
+  },
+  {
+   "path": "notebooks/05_anova/one_way_anova__tukey_scheffe.ipynb",
+   "example": "edu_ferrite_core_scheffe",
+   "method_id": "one_way_anova",
+   "method": "One-Way Analysis of Variance",
+   "title": "Shelf positions for an energy drink: Scheffé's test",
+   "table": "05_anova/one_way_anova__tukey.csv"
+  },
+  {
+   "path": "notebooks/05_anova/one_way_anova__tukey_sidak.ipynb",
+   "example": "edu_ferrite_core_sidak",
+   "method_id": "one_way_anova",
+   "method": "One-Way Analysis of Variance",
+   "title": "Shelf positions for an energy drink: Šidák",
+   "table": "05_anova/one_way_anova__tukey.csv"
+  },
+  {
+   "path": "notebooks/05_anova/one_way_anova__williams.ipynb",
+   "example": "edu_dose_response_williams",
+   "method_id": "one_way_anova",
+   "method": "One-Way Analysis of Variance",
+   "title": "Sales training hours: Williams' test",
+   "table": "05_anova/one_way_anova__williams.csv"
+  },
+  {
+   "path": "notebooks/05_anova/one_way_anova_repeated.ipynb",
+   "example": "edu_pig_growth_hormone",
+   "method_id": "one_way_anova_repeated",
+   "method": "One-way Repeated Measures Analysis of Variance",
+   "title": "Burger recipes rated by the same customers",
+   "table": "05_anova/one_way_anova_repeated.csv"
+  },
+  {
+   "path": "notebooks/05_anova/orthogonal_array_analysis.ipynb",
+   "example": "edu_sashimi_flavour",
+   "method_id": "orthogonal_array_analysis",
+   "method": "Orthogonal Arrays Testing (Taguchi Designs)",
+   "title": "Email features in eight versions: which drive clicks",
+   "table": "05_anova/orthogonal_array_analysis.csv"
+  },
+  {
+   "path": "notebooks/05_anova/orthogonal_array_design.ipynb",
+   "example": "edu_sashimi_storage",
+   "method_id": "orthogonal_array_design",
+   "method": "Design of Orthogonal Arrays (Taguchi Designs)",
+   "title": "Planning an email test: a 12-version orthogonal array",
+   "table": "05_anova/orthogonal_array_design.csv"
+  },
+  {
+   "path": "notebooks/05_anova/paired_comparison.ipynb",
+   "example": "edu_car_noise",
+   "method_id": "paired_comparison",
+   "method": "Paired Comparison",
+   "title": "Four logo designs: Scheffé's paired comparison",
+   "table": "05_anova/paired_comparison.csv"
+  },
+  {
+   "path": "notebooks/05_anova/proportion_multiple_comparison.ipynb",
+   "example": "edu_tv_ratings",
+   "method_id": "proportion_multiple_comparison",
+   "method": "Comparing Multiple Proportions: The Marascuilo Procedure",
+   "title": "Ad conversion on four channels: Marascuilo procedure",
+   "table": "05_anova/proportion_multiple_comparison.csv"
+  },
+  {
+   "path": "notebooks/05_anova/randomized_block_design.ipynb",
+   "example": "edu_fertiliser_blocks",
+   "method_id": "randomized_block_design",
+   "method": "Randomized Block Design",
+   "title": "Product displays in five stores: a blocked plan",
+   "table": "05_anova/randomized_block_design.csv"
+  },
+  {
+   "path": "notebooks/05_anova/two_way_anova_holm.ipynb",
+   "example": "edu_dose_time_holm",
+   "method_id": "two_way_anova",
+   "method": "Two-Way Analysis of Variance",
+   "title": "Coffee price by time of day: Holm's method",
+   "table": "05_anova/two_way_anova.csv"
+  },
+  {
+   "path": "notebooks/05_anova/two_way_anova_repeated.ipynb",
+   "example": "edu_drug_time_course",
+   "method_id": "two_way_anova_repeated",
+   "method": "Two-way Repeated Measures Analysis of Variance",
+   "title": "Fitness app onboarding: activity over four weeks",
+   "table": "05_anova/two_way_anova_repeated.csv"
+  },
+  {
+   "path": "notebooks/05_anova/two_way_anova_tukey.ipynb",
+   "example": "edu_dose_time_mitosis",
+   "method_id": "two_way_anova",
+   "method": "Two-Way Analysis of Variance",
+   "title": "Coffee price by time of day: Tukey's test",
+   "table": "05_anova/two_way_anova.csv"
+  },
+  {
+   "path": "notebooks/06_nonparametric/brunner_munzel.ipynb",
+   "example": "edu_dialysis_ranks_bm",
+   "method_id": "brunner_munzel",
+   "method": "Brunner-Munzel Test",
+   "title": "Chatbot vs human agent tickets: Brunner-Munzel test",
+   "table": "06_nonparametric/brunner_munzel.csv"
+  },
+  {
+   "path": "notebooks/06_nonparametric/cochran_q.ipynb",
+   "example": "edu_hearing_threshold",
+   "method_id": "cochran_q",
+   "method": "Cochran's Q Test",
+   "title": "Three checkout designs, ten shoppers: Cochran's Q test",
+   "table": "06_nonparametric/cochran_q.csv"
+  },
+  {
+   "path": "notebooks/06_nonparametric/friedman_test.ipynb",
+   "example": "edu_emotion_skin_response",
+   "method_id": "friedman_test",
+   "method": "Friedman Test",
+   "title": "Four energy drink flavours: Friedman test finds no winner",
+   "table": "06_nonparametric/friedman_test.csv"
+  },
+  {
+   "path": "notebooks/06_nonparametric/jonckheere_terpstra.ipynb",
+   "example": "edu_dose_response_trend",
+   "method_id": "jonckheere_terpstra",
+   "method": "Jonckheere-Terpstra Test",
+   "title": "Sales by training hours: Jonckheere-Terpstra trend test",
+   "table": "06_nonparametric/jonckheere_terpstra.csv"
+  },
+  {
+   "path": "notebooks/06_nonparametric/kruskal_wallis_scheffe.ipynb",
+   "example": "edu_dose_response_scheffe",
+   "method_id": "kruskal_wallis",
+   "method": "Kruskal-Wallis Test with Multiple Comparisons",
+   "title": "Listing photos and views: Scheffé's comparisons",
+   "table": "06_nonparametric/kruskal_wallis.csv"
+  },
+  {
+   "path": "notebooks/06_nonparametric/kruskal_wallis_shirley_williams.ipynb",
+   "example": "edu_dose_response_ranks",
+   "method_id": "kruskal_wallis",
+   "method": "Kruskal-Wallis Test with Multiple Comparisons",
+   "title": "Listing photos and views: Shirley-Williams test",
+   "table": "06_nonparametric/kruskal_wallis.csv"
+  },
+  {
+   "path": "notebooks/06_nonparametric/kruskal_wallis_steel.ipynb",
+   "example": "edu_dose_response_steel",
+   "method_id": "kruskal_wallis",
+   "method": "Kruskal-Wallis Test with Multiple Comparisons",
+   "title": "Listing photos and views: Steel's test against 1 photo",
+   "table": "06_nonparametric/kruskal_wallis.csv"
+  },
+  {
+   "path": "notebooks/06_nonparametric/kruskal_wallis_steel_dwass.ipynb",
+   "example": "edu_dose_response_steel_dwass",
+   "method_id": "kruskal_wallis",
+   "method": "Kruskal-Wallis Test with Multiple Comparisons",
+   "title": "Listing photos and views: Steel-Dwass comparisons",
+   "table": "06_nonparametric/kruskal_wallis.csv"
+  },
+  {
+   "path": "notebooks/06_nonparametric/kruskal_wallis_williams_one_way_anova.ipynb",
+   "example": "edu_dose_response_williams_unequal_sizes",
+   "method_id": "one_way_anova",
+   "method": "One-Way Analysis of Variance",
+   "title": "Listing photos and views: Williams test after ANOVA",
+   "table": "06_nonparametric/kruskal_wallis.csv"
+  },
+  {
+   "path": "notebooks/06_nonparametric/ks_two_sample.ipynb",
+   "example": "edu_dialysis_distribution_shape",
+   "method_id": "ks_two_sample",
+   "method": "Two-Sample Kolmogorov-Smirnov Test",
+   "title": "Chatbot vs human resolution times: Kolmogorov-Smirnov test",
+   "table": "06_nonparametric/ks_two_sample.csv"
+  },
+  {
+   "path": "notebooks/06_nonparametric/ks_two_sample__grouped.ipynb",
+   "example": "edu_dialysis_grouped",
+   "method_id": "ks_two_sample",
+   "method": "Two-Sample Kolmogorov-Smirnov Test",
+   "title": "Ticket counts by time band: Kolmogorov-Smirnov test",
+   "table": "06_nonparametric/ks_two_sample__grouped.csv"
+  },
+  {
+   "path": "notebooks/06_nonparametric/mann_whitney_u.ipynb",
+   "example": "edu_dialysis_ranks",
+   "method_id": "mann_whitney_u",
+   "method": "Mann-Whitney U Test",
+   "title": "Chatbot vs human agent tickets: Mann-Whitney U test",
+   "table": "06_nonparametric/mann_whitney_u.csv"
+  },
+  {
+   "path": "notebooks/06_nonparametric/median_test.ipynb",
+   "example": "edu_dialysis_median_split",
+   "method_id": "median_test",
+   "method": "Median Test",
+   "title": "Chatbot vs human agent tickets: median test",
+   "table": "06_nonparametric/median_test.csv"
+  },
+  {
+   "path": "notebooks/06_nonparametric/sign_test.ipynb",
+   "example": "edu_remedial_class_scores",
+   "method_id": "sign_test",
+   "method": "Sign Test",
+   "title": "Pitch scores before and after coaching: sign test",
+   "table": "06_nonparametric/sign_test.csv"
+  },
+  {
+   "path": "notebooks/06_nonparametric/wilcoxon_signed_rank_exclude_zero_differences.ipynb",
+   "example": "edu_weight_one_two_weeks",
+   "method_id": "wilcoxon_signed_rank",
+   "method": "Wilcoxon Signed-Rank Test",
+   "title": "Store customers, week 1 vs week 2: zero difference excluded",
+   "table": "06_nonparametric/wilcoxon_signed_rank.csv"
+  },
+  {
+   "path": "notebooks/06_nonparametric/wilcoxon_signed_rank_pratt_s_method.ipynb",
+   "example": "edu_weight_one_two_weeks_pratt",
+   "method_id": "wilcoxon_signed_rank",
+   "method": "Wilcoxon Signed-Rank Test",
+   "title": "Store customers, week 1 vs week 2: Pratt's method",
+   "table": "06_nonparametric/wilcoxon_signed_rank.csv"
+  },
+  {
+   "path": "notebooks/07_survival/cox_proportional_hazards__churn.ipynb",
+   "example": "edu_methadone_stepwise",
+   "method_id": "cox_proportional_hazards",
+   "method": "Cox Proportional Hazard Model",
+   "title": "Meal-kit churn: forward stepwise selection",
+   "table": "07_survival/cox_proportional_hazards__churn.csv"
+  },
+  {
+   "path": "notebooks/07_survival/cox_proportional_hazards__turnover.ipynb",
+   "example": "edu_lung_all_covariates",
+   "method_id": "cox_proportional_hazards",
+   "method": "Cox Proportional Hazard Model",
+   "title": "Employee turnover: all covariates in the model",
+   "table": "07_survival/cox_proportional_hazards__turnover.csv"
+  },
+  {
+   "path": "notebooks/07_survival/kaplan_meier_database.ipynb",
+   "example": "edu_leukaemia_6mp_trial",
+   "method_id": "kaplan_meier_database",
+   "method": "Kaplan-Meier Method (Database Format)",
+   "title": "Onboarding emails and cancellations: one row per customer",
+   "table": "07_survival/kaplan_meier_database.csv"
+  },
+  {
+   "path": "notebooks/07_survival/kaplan_meier_table.ipynb",
+   "example": "edu_leukaemia_table_form",
+   "method_id": "kaplan_meier_table",
+   "method": "Kaplan-Meier Method (Table Format)",
+   "title": "Onboarding emails and cancellations: table format",
+   "table": "07_survival/kaplan_meier_table.csv"
+  },
+  {
+   "path": "notebooks/08_time_series/autocorrelation.ipynb",
+   "example": "edu_alternating_series",
+   "method_id": "autocorrelation",
+   "method": "Autocorrelation",
+   "title": "Bakery flour orders: autocorrelation of a zigzag",
+   "table": "08_time_series/autocorrelation.csv"
+  },
+  {
+   "path": "notebooks/08_time_series/cointegration_test.ipynb",
+   "example": "edu_four_series",
+   "method_id": "cointegration_test",
+   "method": "Cointegration Test",
+   "title": "Oil, fuel and tech share prices: cointegration test",
+   "table": "08_time_series/cointegration_test.csv"
+  },
+  {
+   "path": "notebooks/08_time_series/cross_correlation.ipynb",
+   "example": "edu_leading_indicator",
+   "method_id": "cross_correlation",
+   "method": "Cross Correlation",
+   "title": "Ad spend and website visits: cross correlation by lag",
+   "table": "08_time_series/cross_correlation.csv"
+  },
+  {
+   "path": "notebooks/08_time_series/curve_fitting.ipynb",
+   "example": "edu_tc_polynomials",
+   "method_id": "curve_fitting",
+   "method": "Finding Curve",
+   "title": "Ice-cream sales trend: from a line to a quintic curve",
+   "table": "08_time_series/curve_fitting.csv"
+  },
+  {
+   "path": "notebooks/08_time_series/epa_method.ipynb",
+   "example": "edu_quarterly_sales_epa",
+   "method_id": "epa_method",
+   "method": "EPA Method",
+   "title": "Ice-cream quarterly sales: EPA decomposition and forecast",
+   "table": "08_time_series/epa_method.csv"
+  },
+  {
+   "path": "notebooks/08_time_series/exponential_smoothing.ipynb",
+   "example": "edu_newspaper_sales_smoothing",
+   "method_id": "exponential_smoothing",
+   "method": "Exponential Smoothing Method",
+   "title": "Campus coffee sales: exponential smoothing forecast",
+   "table": "08_time_series/exponential_smoothing.csv"
+  },
+  {
+   "path": "notebooks/08_time_series/link_relative.ipynb",
+   "example": "edu_quarterly_sales_link",
+   "method_id": "link_relative",
+   "method": "Link Relative Method",
+   "title": "Bubble-tea revenue: link relative seasonal indices",
+   "table": "08_time_series/link_relative.csv"
+  },
+  {
+   "path": "notebooks/08_time_series/moving_average.ipynb",
+   "example": "edu_newspaper_sales",
+   "method_id": "moving_average",
+   "method": "Moving-Average Method",
+   "title": "Campus coffee sales: 7-day moving average",
+   "table": "08_time_series/moving_average.csv"
+  },
+  {
+   "path": "notebooks/08_time_series/period_average.ipynb",
+   "example": "edu_quarterly_sales",
+   "method_id": "period_average",
+   "method": "Seasonal Average Method",
+   "title": "Bubble-tea quarterly revenue: seasonal average indices",
+   "table": "08_time_series/period_average.csv"
+  },
+  {
+   "path": "notebooks/08_time_series/period_average__table.ipynb",
+   "example": "edu_quarterly_sales_table",
+   "method_id": "period_average",
+   "method": "Seasonal Average Method",
+   "title": "Bubble-tea revenue as a quarter-by-year table",
+   "table": "08_time_series/period_average__table.csv"
+  },
+  {
+   "path": "notebooks/08_time_series/unit_root_test.ipynb",
+   "example": "edu_random_walk_vs_ar1",
+   "method_id": "unit_root_test",
+   "method": "Unit Root Test",
+   "title": "Share price and store visitors: unit root test",
+   "table": "08_time_series/unit_root_test.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/binary_logistic_regression.ipynb",
+   "example": "edu_exam_result",
+   "method_id": "binary_logistic_regression",
+   "method": "Binary Logistic Regression",
+   "title": "Job offers: internship and interview preparation",
+   "table": "09_multivariate/binary_logistic_regression.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/canonical_correlation.ipynb",
+   "example": "edu_attitude_and_achievement",
+   "method_id": "canonical_correlation",
+   "method": "Canonical Correlation Analysis",
+   "title": "Employee attitudes and performance: two sets of measures",
+   "table": "09_multivariate/canonical_correlation.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/cluster_analysis__individuals.ipynb",
+   "example": "edu_canid_skulls",
+   "method_id": "cluster_analysis",
+   "method": "Cluster Analysis",
+   "title": "Seven phone models: hierarchical clustering, Ward's method",
+   "table": "09_multivariate/cluster_analysis__individuals.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/cluster_analysis__kmeans.ipynb",
+   "example": "edu_dog_breeds_kmeans",
+   "method_id": "cluster_analysis",
+   "method": "Cluster Analysis",
+   "title": "Snack market segments: k-means with four clusters",
+   "table": "09_multivariate/cluster_analysis__kmeans.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/cluster_analysis__variables.ipynb",
+   "example": "edu_baseball_statistics",
+   "method_id": "cluster_analysis",
+   "method": "Cluster Analysis",
+   "title": "Beach kiosk figures: clustering the variables",
+   "table": "09_multivariate/cluster_analysis__variables.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/conditional_logistic_regression.ipynb",
+   "example": "edu_low_birth_weight",
+   "method_id": "conditional_logistic_regression",
+   "method": "Conditional Logistic Regression",
+   "title": "Customer churn in matched signup-week sets",
+   "table": "09_multivariate/conditional_logistic_regression.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/cronbach_alpha.ipynb",
+   "example": "edu_wellbeing_scale",
+   "method_id": "cronbach_alpha",
+   "method": "Cronbach's Alpha",
+   "title": "Cafe service score: five items, one that does not belong",
+   "table": "09_multivariate/cronbach_alpha.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/discriminant_analysis__2groups.ipynb",
+   "example": "edu_prostate_two_groups",
+   "method_id": "discriminant_analysis",
+   "method": "Discriminant Analysis",
+   "title": "Loan defaults: two groups, debt-to-income and credit score",
+   "table": "09_multivariate/discriminant_analysis__2groups.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/discriminant_analysis__3groups.ipynb",
+   "example": "edu_iris_three_species",
+   "method_id": "discriminant_analysis",
+   "method": "Discriminant Analysis",
+   "title": "Three delivery apps: forward stepwise selection",
+   "table": "09_multivariate/discriminant_analysis__3groups.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/factor_analysis.ipynb",
+   "example": "edu_wellbeing_three_factors",
+   "method_id": "factor_analysis",
+   "method": "Factor Analysis",
+   "title": "Cafe survey of 12 items: three factors, varimax rotation",
+   "table": "09_multivariate/factor_analysis.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/linear_mixed_model.ipynb",
+   "example": "edu_workplace_satisfaction",
+   "method_id": "linear_mixed_model",
+   "method": "Linear Mixed Model",
+   "title": "Job satisfaction in 40 companies: fixed and random effects",
+   "table": "09_multivariate/linear_mixed_model.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/multidimensional_scaling.ipynb",
+   "example": "edu_food_preference_map",
+   "method_id": "multidimensional_scaling",
+   "method": "Multidimensional Scaling",
+   "title": "Fifteen drinks: a map from customer-group ratings",
+   "table": "09_multivariate/multidimensional_scaling.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/multidimensional_scaling_matrix.ipynb",
+   "example": "edu_kyushu_cities",
+   "method_id": "multidimensional_scaling_matrix",
+   "method": "Multidimensional Scaling (Matrix Format)",
+   "title": "Seven European warehouses: rebuilding a map from distances",
+   "table": "09_multivariate/multidimensional_scaling_matrix.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/multinomial_logistic_regression.ipynb",
+   "example": "edu_alligator_food_choice",
+   "method_id": "multinomial_logistic_regression",
+   "method": "Multinomial Logistic Regression",
+   "title": "Card, mobile wallet or cash: payment choice by age",
+   "table": "09_multivariate/multinomial_logistic_regression.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/multiple_regression__frequency.ipynb",
+   "example": "edu_pitching_speed_frequency",
+   "method_id": "multiple_regression",
+   "method": "Multiple Regression",
+   "title": "Coffee shop sales: 20 profiles counted as 30 shops",
+   "table": "09_multivariate/multiple_regression__frequency.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/multiple_regression_constant_set_to_0.ipynb",
+   "example": "edu_pitching_speed_through_origin",
+   "method_id": "multiple_regression",
+   "method": "Multiple Regression",
+   "title": "Coffee shop sales: all variables, constant set to 0",
+   "table": "09_multivariate/multiple_regression.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/multiple_regression_stepwise_selection.ipynb",
+   "example": "edu_pitching_speed",
+   "method_id": "multiple_regression",
+   "method": "Multiple Regression",
+   "title": "Coffee shop sales: forward stepwise selection, 20 shops",
+   "table": "09_multivariate/multiple_regression.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/ordinal_logistic_regression.ipynb",
+   "example": "edu_graduate_school_apply",
+   "method_id": "ordinal_logistic_regression",
+   "method": "Ordinal Logistic Regression",
+   "title": "Likely to recommend: membership, app use and satisfaction",
+   "table": "09_multivariate/ordinal_logistic_regression.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/principal_component_analysis.ipynb",
+   "example": "edu_dog_personality",
+   "method_id": "principal_component_analysis",
+   "method": "Principal Component Analysis",
+   "title": "Snack market map: principal components of 13 attributes",
+   "table": "09_multivariate/principal_component_analysis.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/probit_regression.ipynb",
+   "example": "edu_stimulus_response",
+   "method_id": "probit_regression",
+   "method": "Probit Regression",
+   "title": "Discount levels and buying: the half-buy discount",
+   "table": "09_multivariate/probit_regression.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/quantification_i_quantification_method_i.ipynb",
+   "example": "edu_cigarette_consumption",
+   "method_id": "quantification_i",
+   "method": "Hayashi's Quantification Method I",
+   "title": "Coffee spend by age group and gender: category scores",
+   "table": "09_multivariate/quantification_i.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/quantification_i_two_way_anova_type_i.ipynb",
+   "example": "edu_cigarette_two_way_type1",
+   "method_id": "two_way_anova",
+   "method": "Two-Way Analysis of Variance",
+   "title": "Coffee spend by age and gender: Type I sums of squares",
+   "table": "09_multivariate/quantification_i.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/quantification_i_two_way_anova_type_ii.ipynb",
+   "example": "edu_cigarette_two_way_type2",
+   "method_id": "two_way_anova",
+   "method": "Two-Way Analysis of Variance",
+   "title": "Coffee spend by age and gender: Type II sums of squares",
+   "table": "09_multivariate/quantification_i.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/quantification_i_two_way_anova_type_iii.ipynb",
+   "example": "edu_cigarette_two_way_type3",
+   "method_id": "two_way_anova",
+   "method": "Two-Way Analysis of Variance",
+   "title": "Coffee spend by age and gender: Type III sums of squares",
+   "table": "09_multivariate/quantification_i.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/quantification_ii__2groups.ipynb",
+   "example": "edu_smoking_two_groups",
+   "method_id": "quantification_ii",
+   "method": "Hayashi's Quantification Method II",
+   "title": "Premium plan subscribers: age, gender and device",
+   "table": "09_multivariate/quantification_ii__2groups.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/quantification_ii__3groups.ipynb",
+   "example": "edu_physique_three_groups",
+   "method_id": "quantification_ii",
+   "method": "Hayashi's Quantification Method II",
+   "title": "Spending tiers: three groups on two axes",
+   "table": "09_multivariate/quantification_ii__3groups.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/quantification_iii.ipynb",
+   "example": "edu_hobby_patterns",
+   "method_id": "quantification_iii",
+   "method": "Hayashi's Quantification Method III",
+   "title": "Subscription services: one lifestyle line",
+   "table": "09_multivariate/quantification_iii.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/quantification_iv.ipynb",
+   "example": "edu_coordinate_map",
+   "method_id": "quantification_iv",
+   "method": "Hayashi's Quantification Method IV",
+   "title": "Eight stores in a ring: testing the method on a known map",
+   "table": "09_multivariate/quantification_iv.csv"
+  },
+  {
+   "path": "notebooks/09_multivariate/quantification_iv_matrix.ipynb",
+   "example": "edu_country_relations",
+   "method_id": "quantification_iv_matrix",
+   "method": "Hayashi's Quantification Method IV (Matrix Format)",
+   "title": "Six social platform types: a map from similarity ratings",
+   "table": "09_multivariate/quantification_iv_matrix.csv"
+  },
+  {
+   "path": "notebooks/10_control_chart/c_chart.ipynb",
+   "example": "edu_defect_count",
+   "method_id": "c_chart",
+   "method": "c Control Chart",
+   "title": "App crash reports per day: c chart",
+   "table": "10_control_chart/c_chart.csv"
+  },
+  {
+   "path": "notebooks/10_control_chart/median_r_chart.ipynb",
+   "example": "edu_process_monitoring_median",
+   "method_id": "median_r_chart",
+   "method": "Median-R Control Chart",
+   "title": "Burger patty weights: median and range chart",
+   "table": "10_control_chart/median_r_chart.csv"
+  },
+  {
+   "path": "notebooks/10_control_chart/np_chart.ipynb",
+   "example": "edu_lot_inspection",
+   "method_id": "np_chart",
+   "method": "np Control Chart",
+   "title": "Faulty parcels in 200 checked: np chart, month 1",
+   "table": "10_control_chart/np_chart.csv"
+  },
+  {
+   "path": "notebooks/10_control_chart/np_chart__month2.ipynb",
+   "example": "edu_lot_inspection__month2",
+   "method_id": "np_chart",
+   "method": "np Control Chart",
+   "title": "Faulty parcels in 200 checked: np chart, month 2",
+   "table": "10_control_chart/np_chart__month2.csv"
+  },
+  {
+   "path": "notebooks/10_control_chart/p_chart.ipynb",
+   "example": "edu_daily_lots",
+   "method_id": "p_chart",
+   "method": "p Control Chart",
+   "title": "Daily return rate with changing order counts: p chart",
+   "table": "10_control_chart/p_chart.csv"
+  },
+  {
+   "path": "notebooks/10_control_chart/roc_curve.ipynb",
+   "example": "edu_two_diagnostic_tests",
+   "method_id": "roc_curve",
+   "method": "ROC Curve",
+   "title": "Two fraud-detection models: ROC curves compared",
+   "table": "10_control_chart/roc_curve.csv"
+  },
+  {
+   "path": "notebooks/10_control_chart/u_chart.ipynb",
+   "example": "edu_fabric_defects",
+   "method_id": "u_chart",
+   "method": "u Control Chart",
+   "title": "Bugs per thousand lines by release: u chart",
+   "table": "10_control_chart/u_chart.csv"
+  },
+  {
+   "path": "notebooks/10_control_chart/x_rs_chart.ipynb",
+   "example": "edu_daily_output",
+   "method_id": "x_rs_chart",
+   "method": "X-Rs (Individuals and Moving Range) Control Chart",
+   "title": "Online orders per day and a campaign start: X-Rs chart",
+   "table": "10_control_chart/x_rs_chart.csv"
+  },
+  {
+   "path": "notebooks/10_control_chart/xbar_r_chart.ipynb",
+   "example": "edu_process_monitoring",
+   "method_id": "xbar_r_chart",
+   "method": "Xbar-R Control Chart",
+   "title": "Burger patty weights: mean and range chart",
+   "table": "10_control_chart/xbar_r_chart.csv"
+  },
+  {
+   "path": "notebooks/10_control_chart/xbar_s_chart.ipynb",
+   "example": "edu_process_monitoring_sd",
+   "method_id": "xbar_s_chart",
+   "method": "Xbar-s Control Chart",
+   "title": "Burger patty weights: mean and standard deviation chart",
+   "table": "10_control_chart/xbar_s_chart.csv"
+  },
+  {
+   "path": "notebooks/11_chart/labelled_scatter_plot.ipynb",
+   "example": "edu_japan_cities_scatter",
+   "method_id": "labelled_scatter_plot",
+   "method": "Labelled / Stratified Scatter Plot",
+   "title": "Cafe stores: average ticket and rating by region",
+   "table": "11_chart/labelled_scatter_plot.csv"
+  },
+  {
+   "path": "notebooks/11_chart/lorenz_curve__deciles.ipynb",
+   "example": "edu_income_deciles_lorenz",
+   "method_id": "lorenz_curve",
+   "method": "Lorenz Curve and Gini Coefficient",
+   "title": "Customer spending by decile: Lorenz curve",
+   "table": "11_chart/lorenz_curve__deciles.csv"
+  },
+  {
+   "path": "notebooks/11_chart/lorenz_curve__prices.ipynb",
+   "example": "edu_customer_purchases_lorenz",
+   "method_id": "lorenz_curve",
+   "method": "Lorenz Curve and Gini Coefficient",
+   "title": "Sales at five price points: Lorenz curve",
+   "table": "11_chart/lorenz_curve__prices.csv"
+  },
+  {
+   "path": "notebooks/11_chart/mosaic_plot.ipynb",
+   "example": "edu_service_satisfaction_mosaic",
+   "method_id": "mosaic_plot",
+   "method": "Mosaic Plot",
+   "title": "Streaming plans: satisfaction mosaic plot",
+   "table": "11_chart/mosaic_plot.csv"
+  },
+  {
+   "path": "notebooks/11_chart/population_pyramid.ipynb",
+   "example": "edu_japan_population_pyramid",
+   "method_id": "population_pyramid",
+   "method": "Population Pyramid",
+   "title": "Theme park visitors by age and gender",
+   "table": "11_chart/population_pyramid.csv"
+  },
+  {
+   "path": "notebooks/11_chart/ternary_plot.ipynb",
+   "example": "edu_world_population_ternary",
+   "method_id": "ternary_plot",
+   "method": "Ternary Plot",
+   "title": "Revenue mix of seven companies: ternary plot",
+   "table": "11_chart/ternary_plot.csv"
+  },
+  {
+   "path": "notebooks/11_chart/vertical_line_graph.ipynb",
+   "example": "edu_dog_temperament_profile",
+   "method_id": "vertical_line_graph",
+   "method": "Vertical Line Graph",
+   "title": "Snack profiles by price tier across 13 attributes",
+   "table": "11_chart/vertical_line_graph.csv"
+  },
+  {
+   "path": "notebooks/11_chart/vertical_line_graph_range.ipynb",
+   "example": "edu_monthly_temperature_profile",
+   "method_id": "vertical_line_graph_range",
+   "method": "Vertical Line Graph - Changing the Data Range",
+   "title": "Four coffee-shop drinks: sales index through the year",
+   "table": "11_chart/vertical_line_graph_range.csv"
+  },
+  {
+   "path": "notebooks/12_utility/categorical_conversion_equal_width_classes.ipynb",
+   "example": "edu_exam_grades_equal_width",
+   "method_id": "categorical_conversion",
+   "method": "Conversion to Categorical Variables",
+   "title": "Review scores to classes: equal width of 20 points",
+   "table": "12_utility/categorical_conversion.csv"
+  },
+  {
+   "path": "notebooks/12_utility/categorical_conversion_grades_d_to_a_at_60_70_80.ipynb",
+   "example": "edu_exam_grades_arbitrary",
+   "method_id": "categorical_conversion",
+   "method": "Conversion to Categorical Variables",
+   "title": "Review scores to letter grades: cut points 60, 70, 80",
+   "table": "12_utility/categorical_conversion.csv"
+  },
+  {
+   "path": "notebooks/12_utility/data_transformation_box_cox_transformation.ipynb",
+   "example": "edu_baseball_boxcox",
+   "method_id": "data_transformation",
+   "method": "Data Transformation",
+   "title": "Sales rep measures: Box-Cox transformation as a warning",
+   "table": "12_utility/data_transformation.csv"
+  },
+  {
+   "path": "notebooks/12_utility/data_transformation_z_scores.ipynb",
+   "example": "edu_baseball_zscore",
+   "method_id": "data_transformation",
+   "method": "Data Transformation",
+   "title": "Sales rep measures on one scale: z scores",
+   "table": "12_utility/data_transformation.csv"
+  },
+  {
+   "path": "notebooks/12_utility/dummy_variable_conversion_drop_the_last_category.ipynb",
+   "example": "edu_smoking_survey_dummies",
+   "method_id": "dummy_variable_conversion",
+   "method": "Conversion to Dummy Variables",
+   "title": "Survey answers to 0/1 columns: last category as base",
+   "table": "12_utility/dummy_variable_conversion.csv"
+  },
+  {
+   "path": "notebooks/12_utility/dummy_variable_conversion_keep_every_category.ipynb",
+   "example": "edu_smoking_survey_full_dummies",
+   "method_id": "dummy_variable_conversion",
+   "method": "Conversion to Dummy Variables",
+   "title": "Survey answers to 0/1 columns: every category kept",
+   "table": "12_utility/dummy_variable_conversion.csv"
+  },
+  {
+   "path": "notebooks/12_utility/eigen_decomposition.ipynb",
+   "example": "edu_baseball_correlation_eigen",
+   "method_id": "eigen_decomposition",
+   "method": "Eigenvalue Decomposition",
+   "title": "Five sales measures: eigenvalues of the correlations",
+   "table": "12_utility/eigen_decomposition.csv"
+  },
+  {
+   "path": "notebooks/12_utility/matrix_inverse_matrix_inversion.ipynb",
+   "example": "edu_baseball_correlation_inverse",
+   "method_id": "matrix_inverse",
+   "method": "Matrix Inversion",
+   "title": "Five sales measures: inverse of the correlation matrix",
+   "table": "12_utility/matrix_inverse.csv"
+  },
+  {
+   "path": "notebooks/12_utility/matrix_inverse_random_binomial_draws.ipynb",
+   "example": "edu_binomial_draws",
+   "method_id": "random_number_generation",
+   "method": "Random Number Generation",
+   "title": "100 binomial draws, five times: sample against theory",
+   "table": "12_utility/matrix_inverse.csv"
+  },
+  {
+   "path": "notebooks/12_utility/matrix_inverse_random_multivariate_normal_draws.ipynb",
+   "example": "edu_multivariate_normal_draws",
+   "method_id": "random_number_generation",
+   "method": "Random Number Generation",
+   "title": "200 simulated sales reps from a correlation matrix",
+   "table": "12_utility/matrix_inverse.csv"
+  },
+  {
+   "path": "notebooks/12_utility/missing_value_check.ipynb",
+   "example": "edu_health_checkup_missing",
+   "method_id": "missing_value_check",
+   "method": "Missing Value Check",
+   "title": "Skipped survey questions: age, income, phone hours",
+   "table": "12_utility/missing_value_check.csv"
+  },
+  {
+   "path": "notebooks/12_utility/propensity_score_matching.ipynb",
+   "example": "edu_advertisement_purchase_matching",
+   "method_id": "propensity_score_matching",
+   "method": "Propensity Score Matching",
+   "title": "Did the influencer ad cause purchases? Matched pairs",
+   "table": "12_utility/propensity_score_matching.csv"
+  },
+  {
+   "path": "notebooks/13_sample_size/sample_size__effect_sizes_log_rank_test.ipynb",
+   "example": "edu_logrank_survival_sizes",
+   "method_id": "sample_size_calculation",
+   "method": "Sample Size and Power Calculation",
+   "title": "Planning a retention study: log-rank test sample size",
+   "table": "13_sample_size/sample_size__effect_sizes.csv"
+  },
+  {
+   "path": "notebooks/13_sample_size/sample_size__effect_sizes_paired_t_test.ipynb",
+   "example": "edu_paired_diet_sample_size",
+   "method_id": "sample_size_calculation",
+   "method": "Sample Size and Power Calculation",
+   "title": "Planning a before/after study: paired t test sample size",
+   "table": "13_sample_size/sample_size__effect_sizes.csv"
+  },
+  {
+   "path": "notebooks/13_sample_size/sample_size__power.ipynb",
+   "example": "edu_diet_post_hoc_power",
+   "method_id": "sample_size_calculation",
+   "method": "Sample Size and Power Calculation",
+   "title": "Sales training with 30 reps: power after the study",
+   "table": "13_sample_size/sample_size__power.csv"
+  },
+  {
+   "path": "notebooks/14_bayesian/bayes_ab_means.ipynb",
+   "example": "edu_promotion_profit_test",
+   "method_id": "bayes_ab_means",
+   "method": "Bayesian A/B Test for Two Means",
+   "title": "Welcome offers: free delivery or 10% off, profit per order",
+   "table": "14_bayesian/bayes_ab_means.csv"
+  },
+  {
+   "path": "notebooks/14_bayesian/bayes_ab_proportions.ipynb",
+   "example": "edu_checkout_page_test",
+   "method_id": "bayes_ab_proportions",
+   "method": "Bayesian A/B Test for Two Proportions",
+   "title": "Old or new checkout page: purchase rates",
+   "table": "14_bayesian/bayes_ab_proportions.csv"
+  },
+  {
+   "path": "notebooks/14_bayesian/bayes_mean.ipynb",
+   "example": "edu_courier_delivery_hours",
+   "method_id": "bayes_mean",
+   "method": "Bayesian Estimation of the Population Mean",
+   "title": "New courier's delivery time against a 72-hour promise",
+   "table": "14_bayesian/bayes_mean.csv"
+  },
+  {
+   "path": "notebooks/14_bayesian/bayes_proportion.ipynb",
+   "example": "edu_new_supplier_defects",
+   "method_id": "bayes_proportion",
+   "method": "Bayesian Estimation of the Population Proportion",
+   "title": "New bottle-cap supplier: faulty rate against a 2% limit",
+   "table": "14_bayesian/bayes_proportion.csv"
+  },
+  {
+   "path": "notebooks/14_bayesian/bayes_regression.ipynb",
+   "example": "edu_ad_channels_profit",
+   "method_id": "bayes_regression",
+   "method": "Bayesian Linear Regression",
+   "title": "Which ad channels pay back more than a dollar",
+   "table": "14_bayesian/bayes_regression.csv"
+  }
+ ]
+}
