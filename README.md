@@ -1,6 +1,6 @@
 # StatNex in Colab
 
-Every worked example of the StatNex teaching guide as a notebook for Google Colab. Open one, choose **Runtime → Run all**, and it runs: the table is inside the notebook, and Colab has the libraries.
+Every worked example of the StatNex teaching guide as a notebook for Google Colab. The table is inside the notebook, and Colab has the libraries. Open one, choose **Copy to Drive** at the top, and in your copy choose **Runtime → Run all**. A copy is yours, so Colab runs it without its warning about notebooks from GitHub, and it keeps your changes.
 
 Each notebook is the calculation StatNex runs, written out with pandas, SciPy and statsmodels. It does not use StatNex, and every number it prints was checked against the app's. Colab's library versions change over time, so a last digit can differ.
 
