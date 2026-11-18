@@ -1,5 +1,5 @@
 {
- "statnex": "0.6.1",
+ "statnex": "0.6.5",
  "colab": "https://colab.research.google.com/github/nguyen-yumot/statnex-colab/blob/main/",
  "notebooks": [
   {
@@ -160,6 +160,14 @@
    "method_id": "normal_probability_plot",
    "method": "Normal Probability Plot and Normality Tests",
    "title": "Is it normal? Cup weights follow the line",
+   "table": "01_basic/normal_probability_plot.csv"
+  },
+  {
+   "path": "notebooks/01_basic/normal_probability_plot_logarithm_of_the_spend.ipynb",
+   "example": "edu_qq_right_skew_log",
+   "method_id": "normal_probability_plot",
+   "method": "Normal Probability Plot and Normality Tests",
+   "title": "Is it normal? The logarithm of the spend",
    "table": "01_basic/normal_probability_plot.csv"
   },
   {
@@ -400,6 +408,14 @@
    "method_id": "two_sample_mean_database",
    "method": "Two-Sample Test for Means (Database Format)",
    "title": "Chatbot or human agent: minutes to resolve a ticket",
+   "table": "03_two_sample/two_sample_mean_database.csv"
+  },
+  {
+   "path": "notebooks/03_two_sample/two_sample_mean_database_logarithm_of_the_minutes.ipynb",
+   "example": "edu_dialysis_immunoglobulin_log",
+   "method_id": "two_sample_mean_database",
+   "method": "Two-Sample Test for Means (Database Format)",
+   "title": "Chatbot or human agent: testing the logarithms of the minutes",
    "table": "03_two_sample/two_sample_mean_database.csv"
   },
   {
