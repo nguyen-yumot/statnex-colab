@@ -739,6 +739,14 @@
    "table": "05_anova/one_way_anova__tukey.csv"
   },
   {
+   "path": "notebooks/05_anova/one_way_anova__tukey_variance_tests.ipynb",
+   "example": "edu_ferrite_core_variances",
+   "method_id": "homogeneity_of_variance",
+   "method": "Test for Homogeneity of Variance",
+   "title": "Shelf positions and spread: Bartlett's and Levene's tests",
+   "table": "05_anova/one_way_anova__tukey.csv"
+  },
+  {
    "path": "notebooks/05_anova/one_way_anova__williams.ipynb",
    "example": "edu_dose_response_williams",
    "method_id": "one_way_anova",
@@ -849,6 +857,14 @@
    "method": "Jonckheere-Terpstra Test",
    "title": "Sales by training hours: Jonckheere-Terpstra trend test",
    "table": "06_nonparametric/jonckheere_terpstra.csv"
+  },
+  {
+   "path": "notebooks/06_nonparametric/kruskal_wallis_dunn.ipynb",
+   "example": "edu_dose_response_dunn",
+   "method_id": "kruskal_wallis",
+   "method": "Kruskal-Wallis Test with Multiple Comparisons",
+   "title": "Listing photos and views: Dunn's comparisons",
+   "table": "06_nonparametric/kruskal_wallis.csv"
   },
   {
    "path": "notebooks/06_nonparametric/kruskal_wallis_scheffe.ipynb",
